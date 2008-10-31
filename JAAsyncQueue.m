@@ -38,7 +38,11 @@ enum
 
 enum
 {
+#ifdef JAASYNCQUEUE_MAX_POOL_ELEMENTS
+	kMaxPoolElements		= JAASYNCQUEUE_MAX_POOL_ELEMENTS
+#else
 	kMaxPoolElements		= 5
+#endif
 };
 
 
