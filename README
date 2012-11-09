@@ -10,3 +10,5 @@ worker threads. In general, I recommend using Grand Central Dispatch instead
 for new development.
 
 MIT license.
+Will not build under ARC. It should interact fine with ARC code if built with
+-fno-objc-arc.
