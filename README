@@ -1,0 +1,12 @@
+JAAsyncQueue
+
+JAAsyncQueue implements a simple asynchronous object queue for Cocoa. Objects
+may be enqueued from any thread, and any number of objects can dequeue objects.
+Dequeues can be either blocking (suspending the thread until data is available)
+or non-blocking (returning nil if no data is available).
+
+I have used this pattern several times in the past to implement background
+worker threads. In general, I recommend using Grand Central Dispatch instead
+for new development.
+
+MIT lincense.
