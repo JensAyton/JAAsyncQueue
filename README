@@ -9,4 +9,4 @@ I have used this pattern several times in the past to implement background
 worker threads. In general, I recommend using Grand Central Dispatch instead
 for new development.
 
-MIT lincense.
+MIT license.
